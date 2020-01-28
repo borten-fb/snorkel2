@@ -13,7 +13,7 @@ with open("README.md", "r") as readme_file:
     long_description = readme_file.read()
 
 setup(
-    name="snorkel",
+    name="snorkel2",
     version=VERSION["VERSION"],
     url="https://github.com/snorkel-team/snorkel",
     description="A system for quickly generating training data with weak supervision",
@@ -41,7 +41,6 @@ setup(
         "pandas>=0.25.0,<0.26.0",
         "tqdm>=4.33.0,<5.0.0",
         "scikit-learn>=0.20.2,<0.22.0",
-        "torch>=1.1.0,<1.2.0",
         "networkx>=2.2,<2.4",
         "tensorboardX>=1.6,<2.0",
     ],
