@@ -24,9 +24,6 @@ munkres>=1.0.6
 # LF dependency learning
 networkx>=2.2,<2.4
 
-# Model introspection tools
-tensorboardX>=1.6,<2.0
-
 
 #### EXTRA/TEST LIBRARIES
 
