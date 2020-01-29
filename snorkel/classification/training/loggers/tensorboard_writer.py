@@ -1,6 +1,6 @@
 from typing import Any
 
-from tensorboardX import SummaryWriter
+from torch.utils.tensorboard import SummaryWriter
 
 from snorkel.types import Config
 
